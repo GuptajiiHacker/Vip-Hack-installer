@@ -3,7 +3,7 @@
 import os, sys
 import readline
 from time import sleep as timeout
-from core.lzmcore import *
+from core.Vipcore.py import *
 
 def main():
     banner()
@@ -31,7 +31,7 @@ def main():
     lazymux = input("lzmx > set_install ")
 
     # 01 - Information Gathering
-    if lazymux.strip() == "1" or lazymux.strip() == "01":
+    if VipTool.strip() == "1" or Viptool.strip() == "01":
         print("\n    [01] Nmap: Utility for network discovery and security auditing")
         print("    [02] Red Hawk: Information Gathering, Vulnerability Scanning and Crawling")
         print("    [03] D-TECT: All-In-One Tool for Penetration Testing")
