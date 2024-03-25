@@ -1,4 +1,4 @@
-## lzmcore.py - useful module of Lazymux
+## Vipcore.py- useful module of VipTools
 ##
 import os, sys, time
 import urllib.request
