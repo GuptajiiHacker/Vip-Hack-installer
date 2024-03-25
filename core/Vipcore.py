@@ -5,19 +5,19 @@ import urllib.request
 from subprocess import check_output as inputstream
 
 current_dir = os.getcwd()
-lazymux_banner = """
- _
-( )
-| |       _ _  ____  _   _   ___ ___   _   _
-| |  _  /'_` )(_  ,)( ) ( )/' _ ` _ `\( ) ( )(`\/')
-| |_( )( (_| | /'/_ | (_) || ( ) ( ) || (_) | >  <
-(____/'`\__,_)(____)`\__, |(_) (_) (_)`\___/'(_/\_)
-                    ( )_| |
-                    `\___/'
+VipTools_banner = """
+ 
+ __     ___         _____           _  
+ \ \   / (_)_ __   |_   _|__   ___ | | 
+  \ \ / /| | '_ \    | |/ _ \ / _ \| | 
+   \ V / | | |_) |   | | (_) | (_) | | 
+    \_/  |_| .__/    |_|\___/ \___/|_| 
+           |_|                         
+	   
 """
 backtomenu_banner = """
   [99] Back to main menu
-  [00] Exit the Lazymux
+  [00] Exit the Vip-Tool
 """
 
 prefix = os.getenv("PREFIX")
@@ -81,7 +81,7 @@ def backtomenu_option():
 			restart_program()
 
 def banner():
-	print(lazymux_banner)
+	print(_banner)
 
 ### Repo Installer
 def pointless_repo():
