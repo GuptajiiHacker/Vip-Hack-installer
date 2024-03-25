@@ -1,4 +1,4 @@
-## lazymux.py - Lazymux v4.0
+## VipTools-v1.0
 ##
 import os, sys
 import readline
